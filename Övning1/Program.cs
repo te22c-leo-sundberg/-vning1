@@ -10,3 +10,4 @@ while(username != "noname" || password != "nopass")
 }
 Console.WriteLine("Welcome");
 Console.ReadLine();
+//No name och no pass
