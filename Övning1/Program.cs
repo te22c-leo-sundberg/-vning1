@@ -1,16 +1,14 @@
-﻿string username = "";
-string password = "";
+﻿string number = "";
+int intNum;
 
-Console.WriteLine("Write your username and password to procceed.");
-while(username != "noname" || password != "nopass")
+for (int i = 0; i < 5; i++)
 {
-    username = Console.ReadLine();
-    password = Console.ReadLine();
-    if (username != "noname" || password != "nopass")
+    Console.WriteLine("Write a number for me");
+    number = Console.ReadLine();
+    bool success = int.TryParse(number, out intNum);
+    if (intNum > 5)
     {
-        Console.WriteLine("Wrong username or password.");
+        Console.WriteLine("The number is greater than 5!");
     }
 }
-Console.WriteLine("Welcome");
 Console.ReadLine();
-//No name och no pass
