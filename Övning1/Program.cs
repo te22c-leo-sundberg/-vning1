@@ -1,14 +1,8 @@
-﻿string number = "";
-int intNum;
-
-for (int i = 0; i < 5; i++)
+﻿bool success = false;
+string numInput;
+int numOutput;
+while (!success)
 {
-    Console.WriteLine("Write a number for me");
-    number = Console.ReadLine();
-    bool success = int.TryParse(number, out intNum);
-    if (intNum > 5)
-    {
-        Console.WriteLine("The number is greater than 5!");
-    }
+    numInput = Console.ReadLine();
+    success = int.TryParse(numInput, out numOutput);
 }
-Console.ReadLine();
