@@ -12,3 +12,4 @@ c:\Users\leo.sundberg1\Documents\Programming 2\Övning1\Övning1\obj\Debug\net8.
 c:\Users\leo.sundberg1\Documents\Programming 2\Övning1\Övning1\obj\Debug\net8.0\Övning1.pdb
 c:\Users\leo.sundberg1\Documents\Programming 2\Övning1\Övning1\obj\Debug\net8.0\Övning1.genruntimeconfig.cache
 c:\Users\leo.sundberg1\Documents\Programming 2\Övning1\Övning1\obj\Debug\net8.0\ref\Övning1.dll
+c:\Users\leo.sundberg1\Documents\Programming 2\Övning1\Övning1\obj\Debug\net8.0\Övning1.sourcelink.json
